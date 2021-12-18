@@ -10,11 +10,13 @@ function Home() {
                 </div>
                 <div className="home__row">
                 <Product
+                    id="12321341"
                     title="MacBook Pro"
                     price={999}
                     rating={5}
                     image="https://m.media-amazon.com/images/I/313CFbI-YjL._AC_SY400_.jpg" />
                 <Product
+                    id="12321341"
                     title="OnePlus 9"
                     price={699}
                     rating={4}

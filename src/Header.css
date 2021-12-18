@@ -6,6 +6,7 @@
     position: sticky;
     top:0;
     z-index: 100;
+
 }
 .header__logo{
     width: 100px;
@@ -41,10 +42,12 @@
     display: flex;
     align-items: center;
     color:white;
+
 }
 .header__nav{
     display: flex;
     justify-content: space-evenly;
+    /* margin-right: 1%; */
 }
 .header__option{
     display: flex;
