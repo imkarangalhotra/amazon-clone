@@ -1,12 +1,10 @@
-//import { imageListClasses } from '@mui/material';
+// import { imageListClasses } from '@mui/material';
 import React from 'react'
 import "./Product.css";
 import { useStateValue } from './StateProvider';
  
 function Product({id, title, image, price, rating}) {
    const [{basket}, dispatch]= useStateValue();
-
-    console.log("this is basket>>>",basket);
    
     const addToBasket=()=>{
         // dispatch the item into the data layer
@@ -28,7 +26,7 @@ function Product({id, title, image, price, rating}) {
                 <p>{title}</p>
             
             <p className="product__price">
-                <small>₹</small>
+                <small>$</small>
                 <strong>{price}</strong>
             </p>
             <div className="product__rating">
